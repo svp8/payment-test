@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  payment:
+    image: test/payment:latest
+    build:
+      context: .
+    ports:
+      - 8080:8080
